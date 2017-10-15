@@ -1,0 +1,25 @@
+{
+  "name": "vocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uitest": "mocha uiTest/**/*.js ",
+    "register": "./node_modules/.bin/mocha uiTest/userTest/register.js --reporter mochawesome",
+    "login": "./node_modules/.bin/mocha uiTest/userTest/login.js --reporter mochawesome",
+    "apitest": "mocha apiTest/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chromedriver": "^2.32.3",
+    "mocha": "^3.5.3",
+    "mocha-junit-reporter": "^1.15.0",
+    "mochawesome": "^2.3.1",
+    "mongodb": "^2.2.33",
+    "reporter": "^0.1.0",
+    "selenium-webdriver": "^3.5.0"
+  }
+}
