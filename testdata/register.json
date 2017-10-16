@@ -1,0 +1,22 @@
+{
+    
+        "repaerrData": {
+    
+            "password": "123456",
+    
+            "repassword": "654321"
+    
+        },
+        "emailerrData":{
+            
+            "password":"123456",
+            "repassword":"123456"
+        },
+        "existData":{
+            "username":"1505399200170",
+            "password":"123456",
+            "repassword":"123456",
+            "email":"1272379959@qq.com"
+        }
+
+    }
