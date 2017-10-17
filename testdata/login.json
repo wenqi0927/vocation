@@ -1,0 +1,18 @@
+{
+    "emptyerr":{
+        "username":" ",
+        "password":" "
+    },
+    "err":{
+        "username":"150539920",
+        "password":"12345"
+    },
+    "err1":{
+        "username":"dfdsfs",
+        "password":"6523131"
+    },
+    "user":{
+        "username":"1505399200170",
+        "password":"123456"
+    }
+}
